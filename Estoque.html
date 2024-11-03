@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptiStock - Franqueado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #343a40;
+            color: black;
+        }
+        h1 {
+            text-align: center;
+            color: #ffc107;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .category {
+            max-width: 300px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+        label {
+            display: block;
+            margin: 15px 0 5px;
+        }
+        select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            max-height: 250px;
+        }
+        .preco {
+            font-weight: bold;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1>OptiStock - Controle de Estoque</h1>
+
+<form action="">
+    <div class="container">
+
+        <div class="category">
+            <label for="guarda-roupa">Guarda-Roupa 1:</label>
+            <img src="https://dcdn.mitiendanube.com/stores/002/012/759/products/f4fd76d7ac54f83339366d092c2e2b28-bab05f0ae4f8b646b017251161313215-640-0.webp" alt="Guarda-Roupa">
+            <div class="preco">R$ 899,00</div>
+            <select id="guarda-roupa" name="guarda-roupa">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+
+            <label for="guarda-roupa2">Guarda-Roupa 2:</label>
+            <img src="https://dcdn.mitiendanube.com/stores/002/012/759/products/db4308f09c3b7fa7fa0800581638815c-c6fc2c6ac4a2db379617263371495021-640-0.webp" alt="Guarda-Roupa 2">
+            <div class="preco">R$ 2.399,00</div>
+            <select id="guarda-roupa2" name="guarda-roupa2">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+        </div>
+
+        <div class="category">
+            <label for="armarios">Armário 1:</label>
+            <img src="https://dcdn.mitiendanube.com/stores/002/012/759/products/37f3c40da6be095470c9142bf1d0c3cf-b42cf9e665f285cb9517263285393705-640-0.webp" alt="Armários">
+            <div class="preco">R$ 499,00</div>
+            <select id="armarios" name="armarios">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+
+            <label for="armarios2">Armário 2:</label>
+            <img src="https://dcdn.mitiendanube.com/stores/002/012/759/products/bc04482c5dc51c747fa588e0a558ed9d-9d7a5df12cbfe91c2917227155194462-640-0.webp" alt="Armário 2">
+            <div class="preco">R$ 1.049,00</div>
+            <select id="armarios2" name="armarios2">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+        </div>
+
+        <div class="category">
+            <label for="gabinetes">Gabinete 1:</label>
+            <img src="https://dcdn.mitiendanube.com/stores/002/012/759/products/0929d55b0c93f96ecca8f56fd16e6c46-3a5aeb5f5d7337b6a317263296736947-640-0.webp" alt="Gabinetes">
+            <div class="preco">R$ 349,00</div>
+            <select id="gabinetes" name="gabinetes">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+
+            <label for="gabinetes2">Gabinete 2:</label>
+            <img src="https://dcdn.mitiendanube.com/stores/002/012/759/products/58c38bb00c499b34cb25d5c451d02dd0-c341ecfa36216ffbce17263297912244-640-0.webp" alt="Gabinete 2">
+            <div class="preco">R$ 479,00</div>
+            <select id="gabinetes2" name="gabinetes2">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+        </div>
+
+    </div>
+    
+    <button type="submit">Comprar</button>
+</form>
+
+</body>
+</html>

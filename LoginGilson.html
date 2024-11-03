@@ -1,0 +1,111 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franqueados</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #343a40;
+            font-family: 'Arial', sans-serif;
+            color: #f8f9fa;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 30px;
+        }
+
+
+        h1, h2, h3 {
+            text-align: center; 
+            margin: 10px 0;
+        }
+
+        h1 {
+            color: #ffc107; 
+        }
+
+        h2, h3 {
+            color: #ffc107;
+        }
+
+        fieldset {
+            border: 1px solid #ccc; 
+            padding: 15px;
+        }
+
+        legend {
+            font-weight: bold; 
+            color: #555;
+        }
+
+        label {
+            display: block; 
+            margin-bottom: 5px; 
+            font-weight: bold; 
+            color: #ffc107;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%; 
+            padding: 10px; 
+            margin-bottom: 15px;
+            border: 1px solid #ccc; 
+            border-radius: 5px;
+            transition: border 0.3s; 
+            color: #000;
+        }
+
+        input[type="text"]:focus, input[type="password"]:focus {
+            border-color: ##ffc107;
+            outline: none;
+        }
+
+        input[type="button"] {
+            width: 100%; 
+            padding: 12px;
+            background-color: #ffc107; 
+            color: white;
+            border: none;
+            border-radius: 5px; 
+            cursor: pointer;
+            font-weight: bold; 
+            transition: background-color 0.3s;
+        }
+
+        input[type="button"]:hover {
+            background-color: #0056b3; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1><i>Franqueados</i></h1>
+        <h2><i>OptiStock</i></h2>
+        <h3>Admin</h3>
+
+        <form action="" target="_top">
+            <fieldset>
+                <legend>Insira seus dados de login</legend>
+                <label for="fname">Username:</label>
+                <input type="text" id="fname" name="fname">
+                
+                <label for="lname">Password:</label>
+                <input type="password" id="lname" name="lname">
+                
+                <input type="button" onclick="alert('Login Feito!')" value="Enviar">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
